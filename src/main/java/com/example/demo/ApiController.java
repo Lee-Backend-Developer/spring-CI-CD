@@ -8,6 +8,6 @@ public class ApiController {
 
     @GetMapping("/")
     public String index() {
-        return "CI/CD 구축완료";
+        return "build 자동화 완료";
     }
 }
